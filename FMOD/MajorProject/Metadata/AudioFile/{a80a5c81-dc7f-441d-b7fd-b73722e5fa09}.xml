@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a80a5c81-dc7f-441d-b7fd-b73722e5fa09}">
+		<property name="assetPath">
+			<value>500604-Chinese_Fantasy_Summary_Screen_Theme_Level_1_-Full_Version_with_Win_Payout_Counter_Ticking.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2438dfe1-8e6a-4e18-9882-d727fa489dc9}</destination>
+		</relationship>
+	</object>
+</objects>

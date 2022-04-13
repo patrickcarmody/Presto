@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9103871d-5d4e-4dfc-b3e6-6f9896ab9ab3}">
+		<property name="assetPath">
+			<value>Piano-CMajorScale.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.6511666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2438dfe1-8e6a-4e18-9882-d727fa489dc9}</destination>
+		</relationship>
+	</object>
+</objects>
