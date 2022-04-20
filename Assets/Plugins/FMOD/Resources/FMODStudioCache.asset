@@ -17,6 +17,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-9065145905519440003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/Major3rd
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/Major3rd
+  guid: cbfe696faeaecc4782a97c08753ebf72
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &-8881479860164721605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,6 +119,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5000
+--- !u!114 &-8459136925103833836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TempoSlider/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 90
+  Max: 159
+  Default: 90
+  Exists: 0
+--- !u!114 &-8359357646071628794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-8307152047558687694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,6 +187,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-8140692667487518809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/Perfect5th
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/Perfect5th
+  guid: fb6c8c99a936374491adfce020c6ebb9
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &-7972972918744860669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,6 +272,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/QuizCountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7686967115963356110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CountDown/isPlaying
   m_EditorClassIdentifier: 
   Name: isPlaying
   Min: 0
@@ -278,6 +375,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-7367428887652142961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/Major6th
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/Major6th
+  guid: 3af9d55dd992c64dad2e378216bd2e2f
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &-7260116496771703469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,6 +438,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-7197895099984763484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/Perfect4th
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/Perfect4th
+  guid: a16325cb3612ba439764b41b3ebff701
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &-6963766961050594644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,6 +598,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2500
+--- !u!114 &-6417538451069326815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/GMajorChord
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/GMajorChord
+  guid: 8e361cb1a4671e4eabc51d33ca018f5e
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1500
+--- !u!114 &-6334559650464355530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/Major7th
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/Major7th
+  guid: 79439005532a5b48b9d30d53fa1d470e
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &-6315063440184721464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,6 +724,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3500
+--- !u!114 &-6084578103550010660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/QuizCountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-6017625002184969833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,7 +818,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -1293156918573021461}
+  - {fileID: -4674477103054579353}
   MinDistance: 0
   MaxDistance: 0
   Length: 64800
@@ -839,6 +1045,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 258
+--- !u!114 &-4674477103054579353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/QuizCountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-4586826705785689854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -856,6 +1079,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-4168029304809918609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/QuizCountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-4153279257219612958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,6 +1119,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 7
+--- !u!114 &-4040892434051541949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/Minor3rd
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/Minor3rd
+  guid: 1612d5552758674dae451161643a40ff
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &-3992826575223366730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -902,6 +1165,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &-3964967459690265532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-3954215034924285113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1005,6 +1285,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2241
+--- !u!114 &-3392405485813452701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TempoSlider/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 90
+  Max: 159
+  Default: 90
+  Exists: 0
 --- !u!114 &-3378550470137874465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1227,6 +1524,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-2486658224854125700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TempoSlider/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 90
+  Max: 159
+  Default: 90
+  Exists: 0
 --- !u!114 &-2458378039827630007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1244,6 +1558,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-2217207821495287243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/QuizCountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-2067760800324194328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TempoSlider/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 90
+  Max: 159
+  Default: 90
+  Exists: 0
 --- !u!114 &-1985263109089645148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1255,6 +1603,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/QuizCountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1977925646890744489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CountDown/isPlaying
   m_EditorClassIdentifier: 
   Name: isPlaying
   Min: 0
@@ -1275,6 +1640,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Lessons/Melody1/Piano D to E
   guid: bf85d6debe5bca4982e6a4a0cf17dd25
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-1578079372981761224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/Minor6th
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/Minor6th
+  guid: 2196cf488514d14b87b12b43005e0b8b
   Banks:
   - {fileID: 4796895072291984762}
   IsStream: 0
@@ -1318,6 +1706,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-1265522909342320465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-1254634923487386897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1332,12 +1737,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: G:/Major Project/Unity/Projects/MajorProject/FMOD/MajorProject/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637852241001291180
+  lastModified: 637859852345016112
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 3116
+    Value: 3606
   Exists: 1
+--- !u!114 &-1134104257045756080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/GMinorChord
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/GMinorChord
+  guid: 596cb6026cd3134e8e9136546d2524d8
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-1062186976345182313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1375,7 +1803,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -9218187109238527142}
+  - {fileID: -1265522909342320465}
   MinDistance: 0
   MaxDistance: 0
   Length: 15000
@@ -1459,6 +1887,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 4000
+--- !u!114 &-495862914250372906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TempoSlider/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 90
+  Max: 159
+  Default: 90
+  Exists: 1
 --- !u!114 &-463085542965513911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1499,6 +1944,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-416314120615959048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/QuizCountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-387144023296585346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1519,7 +1981,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -8656064694210420313}
+  - {fileID: 8077216724776707613}
   MinDistance: 0
   MaxDistance: 0
   Length: 14408
@@ -1678,12 +2140,23 @@ MonoBehaviour:
   - {fileID: -4700121558252539865}
   - {fileID: 8277762334407387482}
   - {fileID: -387144023296585346}
+  - {fileID: -1134104257045756080}
+  - {fileID: -6417538451069326815}
+  - {fileID: -4040892434051541949}
+  - {fileID: -1578079372981761224}
+  - {fileID: -7367428887652142961}
+  - {fileID: 2037597683573522763}
+  - {fileID: -6334559650464355530}
+  - {fileID: -7197895099984763484}
+  - {fileID: -9065145905519440003}
+  - {fileID: -8140692667487518809}
+  - {fileID: 296902745195757248}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4796895072291984762}
   StringsBanks:
   - {fileID: -1254634923487386897}
-  stringsBankWriteTime: 637852241001291180
+  stringsBankWriteTime: 637859852345016112
   cacheVersion: 3
 --- !u!114 &34275703067373847
 MonoBehaviour:
@@ -1719,6 +2192,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &296902745195757248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/Major2nd
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/Major2nd
+  guid: a6395b121713874fb04ef8b7ba9f1c5e
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &350961993831883880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1787,7 +2283,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &919950649406048857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/QuizCountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &948607953368552423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1018754970919480632
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1975,6 +2505,46 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &2016548853674366751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2037597683573522763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lessons/Harmony2/Minor7th
+  m_EditorClassIdentifier: 
+  Path: event:/Lessons/Harmony2/Minor7th
+  guid: 65ea325e9de412408f87dd416a476d5c
+  Banks:
+  - {fileID: 4796895072291984762}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &2048091968164254121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2311,6 +2881,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &4063557286461375344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TempoSlider/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 90
+  Max: 159
+  Default: 90
+  Exists: 0
 --- !u!114 &4098811276683427550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2462,11 +3049,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: G:/Major Project/Unity/Projects/MajorProject/FMOD/MajorProject/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637852241001121143
+  lastModified: 637859852344865547
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1818912
+    Value: 2335360
   Exists: 1
 --- !u!114 &5005195780108426735
 MonoBehaviour:
@@ -2975,6 +3562,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &8077216724776707613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TempoSlider/tempo
+  m_EditorClassIdentifier: 
+  Name: tempo
+  Min: 90
+  Max: 159
+  Default: 90
+  Exists: 1
 --- !u!114 &8132557920637292397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3089,6 +3693,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &8654629475117309043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/QuizCountDown/isPlaying
+  m_EditorClassIdentifier: 
+  Name: isPlaying
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &8672542656652825931
 MonoBehaviour:
   m_ObjectHideFlags: 0

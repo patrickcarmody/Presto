@@ -2590,6 +2590,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 689707276}
+        m_TargetAssemblyTypeName: UnlockLevel, Assembly-CSharp
+        m_MethodName: SetLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &521500468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4340,6 +4352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 689707275}
   - component: {fileID: 689707274}
+  - component: {fileID: 689707276}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -4388,6 +4401,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &689707276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689707273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0bc32c79ed9f348a9ea27ef751c814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLevelUnlocked: 0
+  thisLevel: 3
 --- !u!1 &719319623
 GameObject:
   m_ObjectHideFlags: 0
