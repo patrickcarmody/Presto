@@ -48,6 +48,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lessons/Melody/Melody 2/Melody_2.unity
     guid: 1bd5f83a8ae2c9c428e7c650e2c55ec1
   - enabled: 1
+    path: Assets/Scenes/Lessons/Melody/Melody 2/Melody_2_Quiz.unity
+    guid: 28a0e55a7bba2824d8ef19473b00cd55
+  - enabled: 1
     path: Assets/Scenes/Lessons/Melody/Melody 3/Melody_3.unity
     guid: c05499b7ca99daf4ca1409e72c7a3f46
   - enabled: 1
