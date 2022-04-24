@@ -8,6 +8,8 @@ public class QuizTimer : MonoBehaviour
     public float startingTime = 15f;
     float currentTime = 0f;
     public bool isRunning = false;
+    public bool timeUp;
+    public bool gameFinished;
 
     [FMODUnity.EventRef]
     FMOD.Studio.EventInstance clockTick;
@@ -19,6 +21,7 @@ public class QuizTimer : MonoBehaviour
     {
         currentTime = startingTime;
         clockTick = FMODUnity.RuntimeManager.CreateInstance("event:/CountDown");
+        gameFinished = false;
     }
 
     void Update()
@@ -31,9 +34,8 @@ public class QuizTimer : MonoBehaviour
 
         if (currentTime <= 0)
         {
-            //Timer over
             currentTime = 0;
-            //clockTick.stop(FMOD.Studio.STOP_MODE);
+            timeUp = true;
         }
     }
 
@@ -45,7 +47,6 @@ public class QuizTimer : MonoBehaviour
 
     public void PauseTimer()
     {
-        //Time.timeScale = 0;
         isRunning = false;
         clockTick.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }

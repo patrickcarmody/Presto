@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class LevelLocks : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class LevelLocks : MonoBehaviour
     //Attack level locks in Unity Editor
     [SerializeField]
     private GameObject lock2, lock3, lock4, lock5, lock6, lock7, lock8, lock9;
+
+    [SerializeField]
+    private GameObject badgeText;
 
     // Update is called once per frame
     private void Awake()
@@ -37,40 +41,72 @@ public class LevelLocks : MonoBehaviour
         {
             lock2.SetActive(false);
         }
+        else
+        {
+            lock2.SetActive(true);
+        }
 
         if (unlockedLevel >= 3)
         {
             lock3.SetActive(false);
+        }
+        else
+        {
+            lock3.SetActive(true);
         }
 
         if (unlockedLevel >= 4)
         {
             lock4.SetActive(false);
         }
+        else
+        {
+            lock4.SetActive(true);
+        }
 
         if (unlockedLevel >= 5)
         {
             lock5.SetActive(false);
+        }
+        else
+        {
+            lock5.SetActive(true);
         }
 
         if (unlockedLevel >= 6)
         {
             lock6.SetActive(false);
         }
+        else
+        {
+            lock6.SetActive(true);
+        }
 
         if (unlockedLevel >= 7)
         {
             lock7.SetActive(false);
+        }
+        else
+        {
+            lock7.SetActive(true);
         }
 
         if (unlockedLevel >= 8)
         {
             lock8.SetActive(false);
         }
+        else
+        {
+            lock8.SetActive(true);
+        }
 
         if (unlockedLevel >= 9)
         {
             lock9.SetActive(false);
+        }
+        else
+        {
+            lock9.SetActive(true);
         }
     }
 
@@ -78,5 +114,10 @@ public class LevelLocks : MonoBehaviour
     {
         //Resets unlocked levels to deafult (1)
         PlayerPrefs.SetInt("unlockedLevels", 1);
+    }
+
+    void UpdateBadge()
+    {
+        badgeText.GetComponent<TextMeshPro>().text = unlockedLevel.ToString();
     }
 }

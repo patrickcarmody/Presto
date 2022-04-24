@@ -6,7 +6,7 @@ public class Manager : MonoBehaviour
 {
 
     public GameObject[] Levels;
-    public GameObject ResetScreen, End, Correct;
+    public GameObject ResetScreen, End, Correct, outOfTime;
     public GameObject LevelTimer;
 
     int currentLevel;
@@ -15,6 +15,14 @@ public class Manager : MonoBehaviour
     {
         ResetScreen.SetActive(true);
         LevelTimer.GetComponent<QuizTimer>().EndGame();
+    }
+
+    private void Update()
+    {
+            if (LevelTimer.GetComponent<QuizTimer>().timeUp)
+            {
+                OutOfTime();
+            }
     }
 
     public void correctAnswer()
@@ -47,5 +55,11 @@ public class Manager : MonoBehaviour
     {
         Correct.SetActive(false);
         LevelTimer.GetComponent<QuizTimer>().ResetTimer();
+    }
+
+    public void OutOfTime()
+    {
+        outOfTime.SetActive(true);
+        LevelTimer.GetComponent<QuizTimer>().EndGame();
     }
 }

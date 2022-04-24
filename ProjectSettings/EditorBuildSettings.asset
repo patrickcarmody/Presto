@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lessons/Rhythm/Rhythm_3/Rhythm_3.unity
     guid: 781628810f44aca4686b218a98a0e2cd
   - enabled: 1
+    path: Assets/Scenes/Lessons/Rhythm/Rhythm_3/Rhythm_3_Quiz.unity
+    guid: ed670263ab7cf3847af8a97bc7e60220
+  - enabled: 1
     path: Assets/Scenes/Lessons/Melody/Melody1/Melody_1.unity
     guid: de58755b5f1089e4ba28a53ac232a69a
   - enabled: 1
