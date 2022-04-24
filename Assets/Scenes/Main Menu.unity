@@ -6409,7 +6409,7 @@ MonoBehaviour:
 
 
     If you happen to find a bug in the application,
-    please file a report with the link below.
+    please submit a report with the link below.
 
 '
   m_isRightToLeft: 0
@@ -6870,7 +6870,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Version 0.02
+  m_text: Version 1.0-alpha
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3ab50f0067e21b04eb1acfc3cc50b914, type: 2}
   m_sharedMaterial: {fileID: 2746622917221797366, guid: 3ab50f0067e21b04eb1acfc3cc50b914, type: 2}
