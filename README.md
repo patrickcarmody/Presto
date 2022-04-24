@@ -15,7 +15,7 @@ To install via the .apk file provided, you may need to [change some settings](ht
 
 ## User Feedback
 
-The following forms are available for user feedback:
+As this application was created primarily for research purposes, the following feedback forms have been made available:
 
 [Bug Report Form](http://example.com/ "Title")
 
