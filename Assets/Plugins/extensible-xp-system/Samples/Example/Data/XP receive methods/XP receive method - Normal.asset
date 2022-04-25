@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5ddfdd0c3bbc241addc8dba36034f1, type: 3}
   m_Name: XP receive method - Normal
   m_EditorClassIdentifier: 
-  maxLevel: 10
+  maxLevel: 15
   difficultyMultiplier: 1
   selectedXPFormula: {fileID: 11400000, guid: dbedd12d447e6374f880962342653dd3, type: 2}
   setProgressToZeroOnReachingMaxLevel: 0

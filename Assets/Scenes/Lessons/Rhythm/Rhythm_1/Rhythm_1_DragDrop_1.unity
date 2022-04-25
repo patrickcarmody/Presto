@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38d7a7a71f952de49810940c15560a0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  experience: 5
+  experience: 50
   useInterval: 0
   interval: 1
   xpGrantMethod: {fileID: 11400000, guid: f7ca5c99fcafd224b8e376620ecd9d50, type: 2}
@@ -1545,7 +1545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: +5xp
+  m_text: +50xp
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3ab50f0067e21b04eb1acfc3cc50b914, type: 2}
   m_sharedMaterial: {fileID: 2746622917221797366, guid: 3ab50f0067e21b04eb1acfc3cc50b914, type: 2}
@@ -4174,7 +4174,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.8576016, y: 375.7}
+  m_AnchoredPosition: {x: -4.857605, y: 375.7}
   m_SizeDelta: {x: -366.43884, y: -1965.6519}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1779616324
@@ -4253,7 +4253,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.8576, y: -1.7}
+  m_AnchoredPosition: {x: 4.857601, y: -1.7000008}
   m_SizeDelta: {x: 981.13, y: 2240.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1815513125
