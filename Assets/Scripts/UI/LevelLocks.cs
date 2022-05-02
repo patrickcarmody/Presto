@@ -30,6 +30,7 @@ public class LevelLocks : MonoBehaviour
 
     public void SetLevel(int level)
     {
+        //Sets number of unlocked levels to PlayerPrefs
         PlayerPrefs.SetInt("unlockedLevels", level);
         Debug.Log("Unlocked levels set to " + PlayerPrefs.GetInt("unlockedLevels"));
     }

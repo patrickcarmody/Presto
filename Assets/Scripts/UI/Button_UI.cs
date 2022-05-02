@@ -20,9 +20,6 @@ using UnityEngine.EventSystems;
 
 namespace CodeMonkey.Utils {
     
-    /*
-     * Button in the UI
-     * */
     public class Button_UI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler {
 
         public Action ClickFunc = null;

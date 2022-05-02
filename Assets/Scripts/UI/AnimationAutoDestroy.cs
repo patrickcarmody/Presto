@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class AnimationAutoDestroy : MonoBehaviour
 {
+    // Destroys GameObject after animation finishes
+
     public float delay = 0f;
 
-    // Use this for initialization
     void Start()
     {
         float animTime = GetComponent<Animator>()

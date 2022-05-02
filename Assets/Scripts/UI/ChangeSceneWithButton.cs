@@ -11,7 +11,6 @@ public class ChangeSceneWithButton : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
         nameOfScene = sceneName;
-
     }
 
     public void BringObject(GameObject objectName)

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
+    //Simple script to rotate GameObject in 3 dimensions
+
     //Rotational Speed
     public float speed = 0f;
 
